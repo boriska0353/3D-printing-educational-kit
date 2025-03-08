@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**", // Важно! Обрабатывает все вложенные папки
+                "${workspaceFolder}/Marlin-2.1.1_SKR-1.4T-main/Marlin/src", 
+                "${workspaceFolder}/Marlin-2.1.1_SKR-1.4T-main/Marlin/include", 
+                "${workspaceFolder}/Marlin-2.1.1_SKR-1.4T-main/Marlin/lib", 
+                "${workspaceFolder}/Marlin-2.1.1_SKR-1.4T-main/Marlin/src/core", 
+                "${workspaceFolder}/Marlin-2.1.1_SKR-1.4T-main/Marlin/src/feature", 
+                "${workspaceFolder}/Marlin-2.1.1_SKR-1.4T-main/Marlin/src/lcd"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ]
+        }
+    ],
+    "version": 4
+}
